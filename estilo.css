@@ -1,0 +1,86 @@
+header{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    justify-content: space-between;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+a{
+text-decoration: none;
+color: rgb(245, 122, 8);
+}
+header ul li{
+    margin: 30px 25px 30px 25px;
+}
+header img{
+    width: 150px;
+    padding: 10px;
+}
+.carousel-item-active img{
+    width: 20px;
+    padding: 10px 20px 10px 20px;
+}
+.carousel-item img{
+    width: 300px;
+    padding: 10px 20px 10px 20px;
+}
+.carousel-item p{
+    font-size: 20px;
+    color: rgb(63, 59, 59);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Trilogia{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(191, 238, 241);
+    margin: 10px 0 10px 0 ;
+}
+.Trilogia p{
+    font-size: 22px;
+    color: rgb(40, 41, 41);
+}
+h1{
+    justify-content: center;
+    font-size: 32px;
+    font-family: "Playfair Display", serif;
+    color: rgb(171, 106, 231);
+}
+#Mas a{
+    font-family: "Fira Sans", sans-serif;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    font-size: 18px;
+}
+.videos iframe{
+    display:inline-flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 45px 120px 45px 120px;
+}
+.videos{
+    background-color: rgb(191, 238, 241);
+}
+
+footer p{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    justify-content: center;
+    padding: 10px;
+    margin: 15px 10px 15px 10px
+}
